@@ -29,6 +29,7 @@ class TGS_Audit_Log
             'pos_gift/gift_pending_approval' => 'Gửi quà tặng ngoài chờ kế toán duyệt',
             'bctk_vat/vat_save_lines' => 'Sửa dòng hàng phiếu xuất bán (VAT)',
             'bctk_vat/vat_save_note'  => 'Sửa ghi chú phiếu xuất bán (VAT)',
+            'bctk_vat/vat_replace_invoice' => 'Lập hoá đơn thay thế qua Viettel',
             'pos_order/receipt_method_changed' => 'Sửa hình thức thanh toán phiếu thu',
             'pos_order/order_note_changed' => 'Sửa ghi chú đơn hàng (Lịch sử đơn hàng)',
             'pos_order/return_created' => 'Hoàn hàng (không đổi trả)',
@@ -163,6 +164,7 @@ class TGS_Audit_Log
         return [
             'bctk_vat/vat_save_lines',
             'bctk_vat/vat_save_note',
+            'bctk_vat/vat_replace_invoice',
             'pos_gift/gift_pending_approval',
             'pos_order/receipt_method_changed',
             'pos_order/order_note_changed',
