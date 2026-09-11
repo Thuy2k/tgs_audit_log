@@ -24,6 +24,7 @@ class TGS_Audit_Log
             'bctk_vat' => 'Quản lý hoá đơn VAT',
             'pos_gift' => 'Quà tặng ngoài chờ duyệt',
             'pos_order' => 'Đơn hàng POS',
+            'htsoft_push' => 'Cấu hình đẩy HTsoft',
         ],
         'action' => [
             'pos_gift/gift_pending_approval' => 'Gửi quà tặng ngoài chờ kế toán duyệt',
@@ -33,6 +34,7 @@ class TGS_Audit_Log
             'pos_order/receipt_method_changed' => 'Sửa hình thức thanh toán phiếu thu',
             'pos_order/order_note_changed' => 'Sửa ghi chú đơn hàng (Lịch sử đơn hàng)',
             'pos_order/return_created' => 'Hoàn hàng (không đổi trả)',
+            'htsoft_push/site_enabled' => 'BẬT đẩy dữ liệu lên HTsoft (site)',
         ],
     ];
 
