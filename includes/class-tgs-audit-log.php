@@ -35,6 +35,7 @@ class TGS_Audit_Log
             'pos_order/order_note_changed' => 'Sửa ghi chú đơn hàng (Lịch sử đơn hàng)',
             'pos_order/return_created' => 'Hoàn hàng (không đổi trả)',
             'htsoft_push/site_enabled' => 'BẬT đẩy dữ liệu lên HTsoft (site)',
+            'htsoft_push/push_failed' => 'Không đẩy được phiếu lên HTsoft (đã lưu local mã BT)',
         ],
     ];
 
@@ -171,6 +172,7 @@ class TGS_Audit_Log
             'pos_order/receipt_method_changed',
             'pos_order/order_note_changed',
             'pos_order/return_created',
+            'htsoft_push/push_failed',
         ];
     }
 
