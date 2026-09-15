@@ -25,6 +25,7 @@ class TGS_Audit_Log
             'pos_gift' => 'Quà tặng ngoài chờ duyệt',
             'pos_order' => 'Đơn hàng POS',
             'htsoft_push' => 'Cấu hình đẩy HTsoft',
+            'book_close' => 'Khóa sổ đồng bộ HTsoft',
         ],
         'action' => [
             'pos_gift/gift_pending_approval' => 'Gửi quà tặng ngoài chờ kế toán duyệt',
@@ -36,6 +37,9 @@ class TGS_Audit_Log
             'pos_order/return_created' => 'Hoàn hàng (không đổi trả)',
             'htsoft_push/site_enabled' => 'BẬT đẩy dữ liệu lên HTsoft (site)',
             'htsoft_push/push_failed' => 'Không đẩy được phiếu lên HTsoft (đã lưu local mã BT)',
+            'book_close/set'   => 'Khóa sổ đồng bộ HTsoft (đặt/đổi mốc)',
+            'book_close/clear' => 'Hủy khóa sổ đồng bộ HTsoft',
+            'pos_order/credit_sale_written' => 'Ghi phiếu bán nợ — thu tiền sau (không sinh phiếu thu)',
         ],
     ];
 
@@ -172,7 +176,10 @@ class TGS_Audit_Log
             'pos_order/receipt_method_changed',
             'pos_order/order_note_changed',
             'pos_order/return_created',
+            'pos_order/credit_sale_written',
             'htsoft_push/push_failed',
+            'book_close/set',
+            'book_close/clear',
         ];
     }
 

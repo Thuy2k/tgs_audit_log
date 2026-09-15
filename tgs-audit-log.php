@@ -40,6 +40,8 @@ require_once TGS_AUDIT_LOG_DIR . 'includes/class-tgs-audit-pos-gift-admin.php';
  */
 require_once TGS_AUDIT_LOG_DIR . 'includes/integrations/integration-bctk-vat.php';
 require_once TGS_AUDIT_LOG_DIR . 'includes/integrations/integration-pos-gift.php';
+require_once TGS_AUDIT_LOG_DIR . 'includes/integrations/integration-book-close.php';   // Khóa sổ đồng bộ HTsoft
+require_once TGS_AUDIT_LOG_DIR . 'includes/integrations/integration-pos-credit-sale.php'; // Ghi phiếu bán nợ (thu tiền sau)
 
 add_action('plugins_loaded', static function () {
     TGS_Audit_Log::boot();
